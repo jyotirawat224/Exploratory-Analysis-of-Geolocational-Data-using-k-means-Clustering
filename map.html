@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a5b7f412b6e7686dab2203ec01ee576 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9a5b7f412b6e7686dab2203ec01ee576" ></div>
+        
+</body>
+<script>    
+    
+            var map_9a5b7f412b6e7686dab2203ec01ee576 = L.map(
+                "map_9a5b7f412b6e7686dab2203ec01ee576",
+                {
+                    center: [30.67995, 76.72211],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9764057dc7d7d24327d18b6e1e364be6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+            var circle_marker_a4c69c601a0bee179621b380db6d1e28 = L.circleMarker(
+                [30.70527, 76.71948],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_2cdd9d83b6f5686a88ce3a38815a467f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b0a53d1d3251069c3d7c3f2cd4e64e1d = $(`<div id="html_b0a53d1d3251069c3d7c3f2cd4e64e1d" style="width: 100.0%; height: 100.0%;">2837 Phase Mohali</div>`)[0];
+                popup_2cdd9d83b6f5686a88ce3a38815a467f.setContent(html_b0a53d1d3251069c3d7c3f2cd4e64e1d);
+            
+        
+
+        circle_marker_a4c69c601a0bee179621b380db6d1e28.bindPopup(popup_2cdd9d83b6f5686a88ce3a38815a467f)
+        ;
+
+        
+    
+    
+            var circle_marker_94eaf78801b04aea9fdee3c50057dc57 = L.circleMarker(
+                [30.70663, 76.71809],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_6b8137a95693db97500065c3672b9e96 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6e31890097c0773dd2857cee71bd8a40 = $(`<div id="html_6e31890097c0773dd2857cee71bd8a40" style="width: 100.0%; height: 100.0%;">PG for Girls</div>`)[0];
+                popup_6b8137a95693db97500065c3672b9e96.setContent(html_6e31890097c0773dd2857cee71bd8a40);
+            
+        
+
+        circle_marker_94eaf78801b04aea9fdee3c50057dc57.bindPopup(popup_6b8137a95693db97500065c3672b9e96)
+        ;
+
+        
+    
+    
+            var circle_marker_b27b164422b06ffbfda40cc34155743c = L.circleMarker(
+                [30.70707, 76.717],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_ffaa57a9e96be762c7959d6f7c2ada47 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f4ca074334232c2bd02ea1dc27930e2 = $(`<div id="html_3f4ca074334232c2bd02ea1dc27930e2" style="width: 100.0%; height: 100.0%;">Lokesh Uncle Home on Rent</div>`)[0];
+                popup_ffaa57a9e96be762c7959d6f7c2ada47.setContent(html_3f4ca074334232c2bd02ea1dc27930e2);
+            
+        
+
+        circle_marker_b27b164422b06ffbfda40cc34155743c.bindPopup(popup_ffaa57a9e96be762c7959d6f7c2ada47)
+        ;
+
+        
+    
+    
+            var circle_marker_7f63021d87e063467e8dedd160f8db8d = L.circleMarker(
+                [30.70146, 76.72221],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_ae364326e4a0cf987933e55d54c52b0b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_506b0e323c6a8d42efc6e819837b28e0 = $(`<div id="html_506b0e323c6a8d42efc6e819837b28e0" style="width: 100.0%; height: 100.0%;">PG for Boys with Food in Sector-70 Mohali (Backside of Reliance Fresh)</div>`)[0];
+                popup_ae364326e4a0cf987933e55d54c52b0b.setContent(html_506b0e323c6a8d42efc6e819837b28e0);
+            
+        
+
+        circle_marker_7f63021d87e063467e8dedd160f8db8d.bindPopup(popup_ae364326e4a0cf987933e55d54c52b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_609f5c1b06a41617e1ab9dda2cc14c13 = L.circleMarker(
+                [30.70589, 76.726],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_54cc654f1656926207a25d336c185cef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d2903708ace327a33936f8aa591912d2 = $(`<div id="html_d2903708ace327a33936f8aa591912d2" style="width: 100.0%; height: 100.0%;">Apartment Rental-Flat Rental</div>`)[0];
+                popup_54cc654f1656926207a25d336c185cef.setContent(html_d2903708ace327a33936f8aa591912d2);
+            
+        
+
+        circle_marker_609f5c1b06a41617e1ab9dda2cc14c13.bindPopup(popup_54cc654f1656926207a25d336c185cef)
+        ;
+
+        
+    
+    
+            var circle_marker_2be4526949115e943405547577befd1a = L.circleMarker(
+                [30.69562, 76.71417],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_32781580dfcdbf84b95e15c5e0422aef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5b94af44ff3882c16d7d46abbbea8fcf = $(`<div id="html_5b94af44ff3882c16d7d46abbbea8fcf" style="width: 100.0%; height: 100.0%;">Mig Super Flats</div>`)[0];
+                popup_32781580dfcdbf84b95e15c5e0422aef.setContent(html_5b94af44ff3882c16d7d46abbbea8fcf);
+            
+        
+
+        circle_marker_2be4526949115e943405547577befd1a.bindPopup(popup_32781580dfcdbf84b95e15c5e0422aef)
+        ;
+
+        
+    
+    
+            var circle_marker_858a9ed2278ed85412e60852005131e9 = L.circleMarker(
+                [30.69473, 76.71407],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_f9c005595d8a4a9846a67db317effb5b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_144e3a230ba400d8613755b35fb414d9 = $(`<div id="html_144e3a230ba400d8613755b35fb414d9" style="width: 100.0%; height: 100.0%;">Apartment In Mohali</div>`)[0];
+                popup_f9c005595d8a4a9846a67db317effb5b.setContent(html_144e3a230ba400d8613755b35fb414d9);
+            
+        
+
+        circle_marker_858a9ed2278ed85412e60852005131e9.bindPopup(popup_f9c005595d8a4a9846a67db317effb5b)
+        ;
+
+        
+    
+    
+            var circle_marker_47537ec3faf09f2f112b3504102be051 = L.circleMarker(
+                [30.70935, 76.72885],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_b74f35e962f14333ba27c78a48bcb4de = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5f1ceb8fc22923fa785fac34353d4331 = $(`<div id="html_5f1ceb8fc22923fa785fac34353d4331" style="width: 100.0%; height: 100.0%;">Apartment Rental-Flat Rental</div>`)[0];
+                popup_b74f35e962f14333ba27c78a48bcb4de.setContent(html_5f1ceb8fc22923fa785fac34353d4331);
+            
+        
+
+        circle_marker_47537ec3faf09f2f112b3504102be051.bindPopup(popup_b74f35e962f14333ba27c78a48bcb4de)
+        ;
+
+        
+    
+    
+            var circle_marker_7dce4314e12e611702d2d1990d351010 = L.circleMarker(
+                [30.69419, 76.71175],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_945cb251009bf2a8373bb6b6cc78db00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d726b9cf5dde01634c783fbcb44fd903 = $(`<div id="html_d726b9cf5dde01634c783fbcb44fd903" style="width: 100.0%; height: 100.0%;">Mundi Complex Society</div>`)[0];
+                popup_945cb251009bf2a8373bb6b6cc78db00.setContent(html_d726b9cf5dde01634c783fbcb44fd903);
+            
+        
+
+        circle_marker_7dce4314e12e611702d2d1990d351010.bindPopup(popup_945cb251009bf2a8373bb6b6cc78db00)
+        ;
+
+        
+    
+    
+            var circle_marker_b13374dc4dc3aeecad7880c847efa69a = L.circleMarker(
+                [30.71571, 76.71123],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_c7f61749ed6f17bd9146200553de2895 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_85e73db2e295ae40cd9981b2f5460a57 = $(`<div id="html_85e73db2e295ae40cd9981b2f5460a57" style="width: 100.0%; height: 100.0%;">PG for Girls Mohali</div>`)[0];
+                popup_c7f61749ed6f17bd9146200553de2895.setContent(html_85e73db2e295ae40cd9981b2f5460a57);
+            
+        
+
+        circle_marker_b13374dc4dc3aeecad7880c847efa69a.bindPopup(popup_c7f61749ed6f17bd9146200553de2895)
+        ;
+
+        
+    
+    
+            var circle_marker_90128537d24c431afcaf09eeefdcf48a = L.circleMarker(
+                [30.69266, 76.71136],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_bb4a370e2ecc558054f7363d0b52af4b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_13148b1eadf8fc1bb902e8a42dd7b81c = $(`<div id="html_13148b1eadf8fc1bb902e8a42dd7b81c" style="width: 100.0%; height: 100.0%;">Homeland Heights Swimming Pool</div>`)[0];
+                popup_bb4a370e2ecc558054f7363d0b52af4b.setContent(html_13148b1eadf8fc1bb902e8a42dd7b81c);
+            
+        
+
+        circle_marker_90128537d24c431afcaf09eeefdcf48a.bindPopup(popup_bb4a370e2ecc558054f7363d0b52af4b)
+        ;
+
+        
+    
+    
+            var circle_marker_709f509bc5dee6fbeb22d5a314050201 = L.circleMarker(
+                [30.69271, 76.71119],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_1b56006d5d091dc81d18b535d2ad3448 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cc919d5bfcd57bf97d5f446f53a799f1 = $(`<div id="html_cc919d5bfcd57bf97d5f446f53a799f1" style="width: 100.0%; height: 100.0%;">Homeland</div>`)[0];
+                popup_1b56006d5d091dc81d18b535d2ad3448.setContent(html_cc919d5bfcd57bf97d5f446f53a799f1);
+            
+        
+
+        circle_marker_709f509bc5dee6fbeb22d5a314050201.bindPopup(popup_1b56006d5d091dc81d18b535d2ad3448)
+        ;
+
+        
+    
+    
+            var circle_marker_23313f660eefedd2ca00b9579113585b = L.circleMarker(
+                [30.71796, 76.71305],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_27810e7221e52d141c21b946a5ddef93 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_77064ea97b16c0feed8f54dc24d68cb7 = $(`<div id="html_77064ea97b16c0feed8f54dc24d68cb7" style="width: 100.0%; height: 100.0%;">Mohali Home PG Afnan</div>`)[0];
+                popup_27810e7221e52d141c21b946a5ddef93.setContent(html_77064ea97b16c0feed8f54dc24d68cb7);
+            
+        
+
+        circle_marker_23313f660eefedd2ca00b9579113585b.bindPopup(popup_27810e7221e52d141c21b946a5ddef93)
+        ;
+
+        
+    
+    
+            var circle_marker_af332c82d616bb3268753c617a60366e = L.circleMarker(
+                [30.71858, 76.71506],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_d0312057e5dd47a6a3d6d23871c40e22 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e1443d31f588110579e47779d19218a2 = $(`<div id="html_e1443d31f588110579e47779d19218a2" style="width: 100.0%; height: 100.0%;">HM 33 Phase Mohali</div>`)[0];
+                popup_d0312057e5dd47a6a3d6d23871c40e22.setContent(html_e1443d31f588110579e47779d19218a2);
+            
+        
+
+        circle_marker_af332c82d616bb3268753c617a60366e.bindPopup(popup_d0312057e5dd47a6a3d6d23871c40e22)
+        ;
+
+        
+    
+    
+            var circle_marker_ffa05983754852e259c6f6fb64a75d7e = L.circleMarker(
+                [30.71719, 76.70945],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_eca81de5c87c6d4f8675ee36347045bd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e38065de69a8892cc08212389cf123d2 = $(`<div id="html_e38065de69a8892cc08212389cf123d2" style="width: 100.0%; height: 100.0%;">PG in Mohali</div>`)[0];
+                popup_eca81de5c87c6d4f8675ee36347045bd.setContent(html_e38065de69a8892cc08212389cf123d2);
+            
+        
+
+        circle_marker_ffa05983754852e259c6f6fb64a75d7e.bindPopup(popup_eca81de5c87c6d4f8675ee36347045bd)
+        ;
+
+        
+    
+    
+            var circle_marker_12c7ba73ce6d05823016aac287bef849 = L.circleMarker(
+                [30.71801, 76.71108],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_d3848c6aac079b3d925ba74d25142b56 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e3bbe159b28e3d08e60dde8fedc8e36a = $(`<div id="html_e3bbe159b28e3d08e60dde8fedc8e36a" style="width: 100.0%; height: 100.0%;">The Experts Paying Guest Service</div>`)[0];
+                popup_d3848c6aac079b3d925ba74d25142b56.setContent(html_e3bbe159b28e3d08e60dde8fedc8e36a);
+            
+        
+
+        circle_marker_12c7ba73ce6d05823016aac287bef849.bindPopup(popup_d3848c6aac079b3d925ba74d25142b56)
+        ;
+
+        
+    
+    
+            var circle_marker_a12ab6d16e781345307ffaaa5d2ec401 = L.circleMarker(
+                [30.71919, 76.72199],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_500659bf6d99728999f20eb71ee07299 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0a348e13e699136a58b12337362a47f6 = $(`<div id="html_0a348e13e699136a58b12337362a47f6" style="width: 100.0%; height: 100.0%;">630 (Rooms on Rents)</div>`)[0];
+                popup_500659bf6d99728999f20eb71ee07299.setContent(html_0a348e13e699136a58b12337362a47f6);
+            
+        
+
+        circle_marker_a12ab6d16e781345307ffaaa5d2ec401.bindPopup(popup_500659bf6d99728999f20eb71ee07299)
+        ;
+
+        
+    
+    
+            var circle_marker_2a17fe4adcca97f3cbe60da6f01c119f = L.circleMarker(
+                [30.71195, 76.70216],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_fd900e6a610a3e4a51cc9e0a56524b52 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d82d2e6f550ffb89ae01ab12c5e9aaac = $(`<div id="html_d82d2e6f550ffb89ae01ab12c5e9aaac" style="width: 100.0%; height: 100.0%;">3 BHK Flats in Mohali</div>`)[0];
+                popup_fd900e6a610a3e4a51cc9e0a56524b52.setContent(html_d82d2e6f550ffb89ae01ab12c5e9aaac);
+            
+        
+
+        circle_marker_2a17fe4adcca97f3cbe60da6f01c119f.bindPopup(popup_fd900e6a610a3e4a51cc9e0a56524b52)
+        ;
+
+        
+    
+    
+            var circle_marker_5bfdd3c519b3784242bb4ee6c4293ca3 = L.circleMarker(
+                [30.71252, 76.70251],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_de92b58272db997c5e4be2d75880d861 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_645ebc0a4be3991baa918f232750ced2 = $(`<div id="html_645ebc0a4be3991baa918f232750ced2" style="width: 100.0%; height: 100.0%;">Tolet Rooms</div>`)[0];
+                popup_de92b58272db997c5e4be2d75880d861.setContent(html_645ebc0a4be3991baa918f232750ced2);
+            
+        
+
+        circle_marker_5bfdd3c519b3784242bb4ee6c4293ca3.bindPopup(popup_de92b58272db997c5e4be2d75880d861)
+        ;
+
+        
+    
+    
+            var circle_marker_1f141b172722ad34cc71c8c0d6aee695 = L.circleMarker(
+                [30.71708, 76.72922],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_fc8e209bb3e94afe48406fcbeff0239a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_27e9d0d20681678790984780627fe53b = $(`<div id="html_27e9d0d20681678790984780627fe53b" style="width: 100.0%; height: 100.0%;">160055 Mohali</div>`)[0];
+                popup_fc8e209bb3e94afe48406fcbeff0239a.setContent(html_27e9d0d20681678790984780627fe53b);
+            
+        
+
+        circle_marker_1f141b172722ad34cc71c8c0d6aee695.bindPopup(popup_fc8e209bb3e94afe48406fcbeff0239a)
+        ;
+
+        
+    
+    
+            var feature_group_a2fb51f4581fafd9a9307c10c5322f56 = L.featureGroup(
+                {}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+            var marker_d805b4a272f5165b15317423a6c3dae4 = L.marker(
+                [30.67995, 76.72211],
+                {}
+            ).addTo(map_9a5b7f412b6e7686dab2203ec01ee576);
+        
+    
+        var popup_5e1bb032a1ffb40682fa6ce926896597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63bf7b2dadb196d8a47b450cf3e5586f = $(`<div id="html_63bf7b2dadb196d8a47b450cf3e5586f" style="width: 100.0%; height: 100.0%;">IIT Bombay</div>`)[0];
+                popup_5e1bb032a1ffb40682fa6ce926896597.setContent(html_63bf7b2dadb196d8a47b450cf3e5586f);
+            
+        
+
+        marker_d805b4a272f5165b15317423a6c3dae4.bindPopup(popup_5e1bb032a1ffb40682fa6ce926896597)
+        ;
+
+        
+    
+</script>
